@@ -1,0 +1,19 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+main {
+    padding: 10px
+}
+.copy {
+    font-size: 9px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: steelblue;
+    padding: 10px 0 5px 0
+}
+
+[itemprop] {
+    color: blueviolet
+}

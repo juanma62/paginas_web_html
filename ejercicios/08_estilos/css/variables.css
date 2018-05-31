@@ -1,0 +1,15 @@
+:root {
+    --color-fondo : brown;
+    --color-texto : papayawhip;
+    --aire-basico : 1rem;
+}
+
+header {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    text-align: center
+}
+
+header h1 {
+    padding: calc(var(--aire-basico) * 2)
+}

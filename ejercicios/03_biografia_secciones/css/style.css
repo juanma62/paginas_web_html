@@ -1,0 +1,84 @@
+body {
+    margin: 20px 0 0 0;
+    background-color: antiquewhite;
+    line-height: 20px;
+    font-size: 15px
+}
+
+aside, article {
+    padding: 12px
+}
+
+h1, h2 {
+    font-family:fantasy;
+    color:steelblue;
+    margin: 30px 0 10px 0;
+}
+
+p {
+    line-height: 20px;
+    margin-top: 0.5em
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center
+}
+
+h2 {
+    font-size: 2em;
+}
+
+figure {
+    margin: 20px 0
+}
+
+img {
+    border-radius: 40px 0;
+    box-shadow: 2px 2px 5px #999;
+    border: 4px solid steelblue
+}
+
+.copy {
+    font-size: 9px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:steelblue;
+    padding: 5px 0;
+    margin: 0
+}
+
+address {
+    font-style: normal
+}
+
+.navegacion {
+    background-color:steelblue;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.navegacion li {
+    display:inline;
+    line-height: 30px;
+    border-left: 1px solid white;
+    padding: 0 60px
+}
+
+.navegacion li:nth-last-child(1) {
+    border-right: 1px solid white
+}
+
+.navegacion li:hover {
+    background-color:cadetblue
+}
+
+.navegacion li a:hover {
+    color:white
+}
+
+a {
+    text-decoration: none;
+    color: white
+}

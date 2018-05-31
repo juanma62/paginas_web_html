@@ -1,0 +1,9 @@
+@import "extras.css";
+body {
+    background-color: darkolivegreen;
+}
+
+p {
+    font-size: 1.1rem;
+    color: azure
+}

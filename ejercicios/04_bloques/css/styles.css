@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: antiquewhite
+}
+
+h1 {
+    text-align: center
+}
+
+.subtitulo {
+    display: block;
+    font-size: 1.5rem
+}
+
+footer {
+    border-top: 7px solid darkgoldenrod
+}
+.copy {
+    font-size: 9px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:steelblue;
+    padding: 5px 0
+}
+
+dt, dd {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0 10px;
+    width: 40%;
+    margin: 20px;
+    height: 40px;
+    background-color: aqua;
+    line-height: 40px
+}
+
+summary{
+    list-style-image: none;
+    outline-style: none
+}

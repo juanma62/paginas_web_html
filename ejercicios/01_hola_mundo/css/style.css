@@ -1,0 +1,11 @@
+h1 {
+    color: chocolate;
+    text-align: center;
+    font-size: 4em;
+    font-family: fantasy;
+}
+
+li {
+    list-style: none;
+    color:cadetblue
+}

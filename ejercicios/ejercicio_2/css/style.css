@@ -1,0 +1,115 @@
+body {
+    margin: 20px 0 0 0;
+    background-color: antiquewhite;
+    line-height: 20px;
+    font-size: 15px
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 700
+}
+
+aside, article {
+    padding: 12px
+}
+
+h1, h2 {
+    font-family:fantasy;
+    color:steelblue;
+    margin: 30px 0 10px 0;
+}
+
+p {
+    line-height: 20px;
+    margin-top: 0.5em
+}
+
+h1, h2, h3, h4 {
+    text-align: center
+}
+
+h1 {
+    font-size: 4em
+}
+
+h2 {
+    font-size: 2em;
+}
+
+figure {
+    margin: 20px 0
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #999;
+    border: 4px solid steelblue;
+    width: 30%;
+    float: left;
+    margin-right: 1rem
+}
+
+.copy {
+    font-size: 9px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:steelblue;
+    padding: 5px 0;
+    margin: 0
+}
+
+address {
+    font-style: normal
+}
+
+.navegacion {
+    background-color:steelblue;
+    text-align: center;
+    margin-top: 2rem
+}
+
+.navegacion li {
+    display: inline-block;
+    line-height: 30px;
+    border-left: 1px solid white;
+    padding: 0 60px
+}
+
+.navegacion li:nth-last-child(1) {
+    border-right: 1px solid white
+}
+
+.navegacion li:hover {
+    background-color:cadetblue
+}
+
+.navegacion a:hover {
+    color:coral
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+aside {
+    margin: 0 auto;
+    width: 60%;
+}
+
+aside li {
+    list-style: none;
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem
+}
+
+aside li:nth-child(even) {
+    background-color:aquamarine
+}
+
+aside li:nth-child(odd) {
+    background-color:brown;
+    color: white
+}
